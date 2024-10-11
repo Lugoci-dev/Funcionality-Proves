@@ -1,0 +1,51 @@
+.item{
+  position: relative;
+  background-color: var(--Slate-900);
+  border-bottom: 2px solid var(--Lime);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+  min-height: 40px;
+
+}
+.item:hover{
+  background-color: var(--Slate-800);
+}
+i{
+  align-self: flex-end;
+}
+h1{
+  align-self: flex-start;
+  color: var(--White);
+}
+h3{
+  color: var(--Lime);
+}
+i{
+  color: var(--Slate-300);
+}
+p{
+  color: var(--Slate-500);
+}
+#state{
+  position: absolute;
+  border-radius: 5px;
+  padding: 2px;
+  top: 8%;
+  right: 2%;
+}
+.unsettled{
+  background-color: hsl(4, 69%, 50%, 0.2);
+  color: var(--Red);
+}
+.progress{
+  background-color: hsl(61, 70%, 52%, 0.2);
+  color: var(--Lime);
+}
+.completed{
+  background-color: hsla(120, 94%, 33%, 0.2);
+  color: hsla(120, 94%, 33%);
+}

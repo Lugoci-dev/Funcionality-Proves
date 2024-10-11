@@ -1,0 +1,60 @@
+.navbar{
+  background-color: var(--Slate-900);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%
+}
+section{
+  position: relative;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right:12px;
+  font-size: 2rem;
+}
+i{
+  color: var(--Slate-500);
+  font-size: 1.5rem;
+}
+.avatar i{
+  /* color: var(--Slate-500); */
+  font-size: 2rem;
+}
+.navbar section i:hover{
+  color: var(--Slate-300);
+}
+.navbar section img{
+  width: 40%;
+  border-radius: 50%;
+}
+.navbar .avatar{
+  /* font-size: 3rem; */
+  border-left: 1px solid var(--Slate-300);
+  border-right: 1px solid var(--Slate-300);
+}
+button{
+  border-radius: 50%;
+  border: none;
+  background-color:hsla(0, 86%, 42%, 0) ;
+}
+.advice{
+  position: absolute;
+  right: 15%;
+  top: 9%;
+  text-align: center;
+  font-weight: 800;
+  background-color: transparent;
+  display: inline-block;
+  padding: 5px;
+  /* padding-left: 3px;
+  padding-right: 3px; */
+  border-radius: 50%;
+  font-size: 0.6rem;
+  border: 2px solid var(--Red);
+  color: var(--Red);
+}
+.advice span{
+  position: absolute;
+  top: 0;
+  right: 25%;
+}

@@ -1,0 +1,61 @@
+
+section{
+  /* overflow: scroll; */
+  background-color: var(--Slate-1000);
+  font-weight: 700;
+  min-height: 90%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  box-sizing: border-box;
+  border-top: 5px solid var(--Lime);
+  border-bottom: 5px solid var(--Lime);
+  border-radius: 16px;
+  margin: 28px;
+  padding: 16px;
+  /* height: 100%; */
+}
+
+h2{
+  color: var(--Slate-100);
+}
+h3{
+  color: var(--Lime);
+}
+
+p{
+  color: var(--Slate-500)
+}
+.item{
+  background-color: var(--Slate-900);
+  /* border-top: 2px solid var(--Lime); */
+  border-bottom: 2px solid var(--Lime);
+  border-radius: 16px;
+  margin: 16px;
+  padding: 8px
+}
+.item:hover{
+  background-color: var(--Slate-800);
+}
+
+.carousell{
+  text-align: center;
+  width: 60%;
+}
+p-carousel div{
+  min-width: 180px;
+}
+.ui-carousel .ui-carousel-prev,
+.ui-carousel .ui-carousel-next {
+    background-color: var(--Slate-700); /* Cambiar el color de fondo */
+    color: var(--Slate-800); /* Cambiar el color del texto */
+    border: none; /* Eliminar el borde */
+    padding: 10px; /* Añadir padding */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+}
+
+.ui-carousel .ui-carousel-prev:hover,
+.ui-carousel .ui-carousel-next:hover {
+    background-color: var(--Slate-800); /* Cambiar el color al pasar el mouse */
+}

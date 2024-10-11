@@ -1,0 +1,10 @@
+
+<h1>Lista de Tareas</h1>
+
+<article class="item" *ngFor="let task of taskList" >
+  <span id="state" class="{{task.estado}}" >{{task.estado}}</span>
+  <h3>Title: {{task.titulo}} <b># {{task.id}}</b></h3>
+  <p> {{task.descripcion}} </p>
+
+  <i>Asigned to: {{task.asignadaA || 'unasigned'}}</i>
+</article>
